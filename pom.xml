@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Parent POM contains all general settings for building and releasing of all JEAF projects. -->
+	<parent>
+		<groupId>com.anaptecs.jeaf</groupId>
+		<artifactId>jeaf-module-project-parent</artifactId>
+		<version>1.9.1-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.anaptecs.jeaf.persistence</groupId>
+	<artifactId>jeaf-persistence-base-project</artifactId>
+	<version>1.8.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>JEAF Persistence Base Project</name>
+	<description>Project contains generic base classes that can be used to implement a JEAF Persistence Service Provider</description>
+	<url>https://www.anaptecs.de/jeaf</url>
+
+	<scm>
+		<connection>scm:git:https://bitbucket.org/anaptecs/jeaf-persistence-base.git/</connection>
+		<developerConnection>scm:git:https://bitbucket.org/anaptecs/jeaf-persistence-base.git</developerConnection>
+		<url>https://bitbucket.org/anaptecs/jeaf-persistence-base.git</url>
+		<tag>HEAD</tag>
+	</scm>
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/anaptecs/jeaf-persistence-base</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<properties>
+		<jeaf.x-fun.impl.version>1.8.1-SNAPSHOT</jeaf.x-fun.impl.version>
+		<jeaf.core.impl.version>1.8.1-SNAPSHOT</jeaf.core.impl.version>
+		<jeaf.persistence.api.version>1.8.1-SNAPSHOT</jeaf.persistence.api.version>
+	</properties>
+
+	<modules>
+		<module>jeaf-persistence-service-provider-base</module>
+	</modules>
+
+</project>
