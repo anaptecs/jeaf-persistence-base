@@ -1,0 +1,16 @@
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.CompletePersistenceUnit
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.ConnectionLessPersistenceConfiguration
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.EmptyPersistenceUnit
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.InvalidApplicationManagedConnectionRef
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.InvalidConnectionPoolSettings
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.InvalidContainerManagedConnectionsRef
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.InvalidJDBCConnection
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.InvalidJNDILookup
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.InvalidManagedClassesRef
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.InvalidMappingFilesRef
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.MyJEEPersistenceUnit
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.MyJUnitPersistenceUnit
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.NoDataSourceDefinition
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.NonJTAPersistenceUnit
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.PersistenceUnitMissing
+com.anaptecs.jeaf.spi.persistence.base.test.persistenceunit.TooManyDataSourceDefinitions
