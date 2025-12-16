@@ -18,9 +18,9 @@
 	<url>https://www.anaptecs.de/jeaf</url>
 
 	<scm>
-		<connection>scm:git:https://bitbucket.org/anaptecs/jeaf-persistence-base.git/</connection>
-		<developerConnection>scm:git:https://bitbucket.org/anaptecs/jeaf-persistence-base.git</developerConnection>
-		<url>https://bitbucket.org/anaptecs/jeaf-persistence-base.git</url>
+		<connection>scm:git:https://github.com/anaptecs/jeaf-persistence-base.git/</connection>
+		<developerConnection>scm:git:https://github.com/anaptecs/jeaf-persistence-base.git</developerConnection>
+		<url>https://github.com/anaptecs/jeaf-persistence-base.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	
