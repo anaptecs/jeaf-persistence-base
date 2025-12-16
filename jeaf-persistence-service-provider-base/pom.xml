@@ -42,7 +42,7 @@
 		<dependency>
 			<groupId>com.github.h-thurow</groupId>
 			<artifactId>simple-jndi</artifactId>
-			<version>0.21.0</version>
+			<version>0.25.0</version>
 		</dependency>
 		
 		<!-- Runtime test dependencies -->
